@@ -17,7 +17,7 @@ public class SetCalmaGui extends Screen {
     private final List<ClickableWidget> playerButtons = new ArrayList<>();
 
     public SetCalmaGui(List<String> targetPlayers) {
-        super(Text.literal("SetCalma Listesi"));
+        super(Text.literal("SetCalma Listesi by hzreti"));
         this.targetPlayers = targetPlayers;
     }
 
