@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "setcalmq",
+  "version": "1.0.0",
+  "name": "MbSetCalma by hzreti",
+  "description": "MaviBuğday Set Çalma Modu.",
+  "authors": ["dc.hzreti"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.setcalma.main.SetCalmaMain"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.8",
+    "fabric": "*",
+    "minecraft": "1.20.4"
+  }
+}
